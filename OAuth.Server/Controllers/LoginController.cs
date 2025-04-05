@@ -96,7 +96,7 @@ namespace OAuth.Server.Controllers
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim("Email", user.Email),
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                     new Claim("LoginProvider", "app"),
                 };
