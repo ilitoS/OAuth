@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/node": "^22.13.14",
+    "react-router-dom": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/react-bootstrap": "^0.32.37"
+  }
+}
